@@ -32,7 +32,6 @@ clock.js dosyası:
 ```html
 let isim = prompt("Adınızı yazınız:")
 document.querySelector("#myName").innerHTML = isim
-showTime()
 
 function showTime(){
     var today = new Date();
